@@ -101,9 +101,10 @@ holiday_hash.each do |season, holiday|
   puts "#{season.capitalize}:"
   supp = []
   holiday.each do |i|
+    i.to_s 
     supp.push(i)
   end
-  supp.to_s
+
   puts "#{holiday}: #{supp}"
 end
     
