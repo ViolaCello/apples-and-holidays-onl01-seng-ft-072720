@@ -103,6 +103,7 @@ holiday_hash.each do |season, holiday|
   holiday.each do |i|
     supp.push(i)
   end
+  supp.to_s
   puts "#{holiday}: #{supp}"
 end
     
