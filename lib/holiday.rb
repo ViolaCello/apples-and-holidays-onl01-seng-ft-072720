@@ -84,7 +84,7 @@ holiday_hash.each do |key, value|
       end
     end
     end
-    wint_supp
+    wint_supp.flatten
         
 
 
