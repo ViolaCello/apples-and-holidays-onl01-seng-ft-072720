@@ -83,6 +83,7 @@ holiday_hash.each do |key, value|
         wint_supp.push(sup)
       end
     end
+    end
     wint_supp
         
 
