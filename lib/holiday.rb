@@ -85,9 +85,7 @@ holiday_hash.each do |key, value|
     end
     end
     wint_supp.flatten
-        
-
-
+      
 end
 
 def all_supplies_in_holidays(holiday_hash)
