@@ -65,11 +65,11 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 
 holiday_hash.each do |key, value|
     if key == season
-      key.push(:holiday_hash[supply_array])
+      key.push(holiday_hash[supply_array])
     end
   end
 
-
+holiday_hash
 end
 
 def all_winter_holiday_supplies(holiday_hash)
